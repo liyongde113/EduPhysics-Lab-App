@@ -6,3 +6,6 @@
 ├── docs/                 # 项目文档（部署指南、API说明）
 ├── .github/workflows/    # GitHub Actions自动化脚本（CI/CD）
 └── package.json          # 依赖管理文件
+# 使用React Native初始化项目
+npx react-native init EduPhysicsLabApp
+cd EduPhysicsLabApp
