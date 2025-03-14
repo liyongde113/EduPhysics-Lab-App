@@ -17,3 +17,12 @@ const loadModel = async () => {
   const model = await TFLite.loadModel(modelPath);
   return model;
 };
+// src/utils/database.js
+import { Database } from '@nozbe/watermelondb';
+import SQLiteAdapter from '@nozbe/watermelondb/adapters/sqlite';
+
+const adapter = new SQLiteAdapter({
+  dbName: 'LabData',
+  schema: /* 数据表结构 */
+});
+const database = new Database({ adapter });
