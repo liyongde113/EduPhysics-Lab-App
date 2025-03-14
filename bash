@@ -9,3 +9,8 @@
 # 使用React Native初始化项目
 npx react-native init EduPhysicsLabApp
 cd EduPhysicsLabApp
+git add .                # 添加所有修改
+git commit -m "feat: 添加传感器数据采集模块"
+git push origin main     # 推送至GitHub仓库
+git checkout -b feature/sensor-integration  # 创建新分支
+git push origin feature/sensor-integration   # 推送分支
